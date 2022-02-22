@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vcet Complaint Box</string>
+    <string name="invalid_email">Please Enter Valid Email Id</string>
+    <string name="invalid_id">Please Enter Valid Enrollment Id of College </string>
+    <string name="invalid_password">Please Enter Valid Password(For EX: Vect@123)</string>
+    <string name="invalid_password_">Please Enter Valid Password(For EX: Vect@123)</string>
+    <string name="invalid_confirm_password">Password Does Not Match</string>
+    <string name="invalid_complaint">This field can not be Empty.</string>
+</resources>

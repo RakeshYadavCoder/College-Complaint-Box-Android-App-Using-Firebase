@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="invalid_email">Please Enter Valid Email</string>
+    <string name="invalid_id">Please Enter valid id without space</string>
+    <string name="invalid_password_">Please Enter Valid Password</string>
+    <string name="invalid_confirm_password">Password Does Not Match</string>
+    <string name="invalid_complaint">This field can not be empty.</string>
+</resources>

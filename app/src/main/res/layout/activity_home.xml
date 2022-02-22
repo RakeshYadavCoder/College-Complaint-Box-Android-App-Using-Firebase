@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view5"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@drawable/wave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topView" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="107dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/view5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_complaint_logo_degin" />
+
+    <TextView
+        android:id="@+id/topText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="30dp"
+        android:text="Vcet Complaint Box"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/view5"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/topView"
+        android:fontFamily="sans-serif-condensed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="465dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/complaint_edit_text"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:layout_margin="20sp"
+            android:columnCount="2"
+            android:rowCount="2">
+
+
+            <ImageView
+                android:id="@+id/admin_imageview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                app:srcCompat="@drawable/ic_vect_admin" />
+
+            <ImageView
+                android:id="@+id/student_imageview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:translationY="40dp"
+                app:srcCompat="@drawable/ic_vect_student" />
+
+            <ImageView
+                android:id="@+id/parent_imageview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:translationX="10dp"
+                android:translationY="40dp"
+                app:srcCompat="@drawable/ic_vect_parent" />
+
+            <ImageView
+                android:id="@+id/tacher_imageview"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:translationX="10dp"
+                app:srcCompat="@drawable/ic_vect_teacher" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:fontFamily="sans-serif-condensed"
+                android:text="ADMIN"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:translationX="50dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:fontFamily="sans-serif-condensed"
+                android:text="TEACHER"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:translationX="200dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:fontFamily="sans-serif-condensed"
+                android:text="STUDENT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:translationX="41dp"
+                android:translationY="190dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:fontFamily="sans-serif-condensed"
+                android:text="PARENT"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:translationX="200dp"
+                android:translationY="190dp" />
+
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/testing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Please Select Your Category"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"
+            android:translationY="-25dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

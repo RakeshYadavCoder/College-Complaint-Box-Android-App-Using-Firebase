@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mini_Projects_SEM_IV/VectComplaintBox/app/src/main/res/drawable/ic_vect_admin.xml" value="0.2265" />
+        <entry key="..\:/Mini_Projects_SEM_IV/VectComplaintBox/app/src/main/res/layout/activity_add_new_admin.xml" value="0.1721311475409836" />
+        <entry key="..\:/Mini_Projects_SEM_IV/VectComplaintBox/app/src/main/res/layout/activity_admin_email_verfication.xml" value="0.1721311475409836" />
+        <entry key="..\:/Mini_Projects_SEM_IV/VectComplaintBox/app/src/main/res/layout/activity_admin_panel.xml" value="0.190625" />
+        <entry key="..\:/Mini_Projects_SEM_IV/VectComplaintBox/app/src/main/res/layout/activity_home.xml" value="0.190625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

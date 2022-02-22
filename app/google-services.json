@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927229660804",
+    "project_id": "vect-complaint-box-database",
+    "storage_bucket": "vect-complaint-box-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927229660804:android:078e7a32a0d3066c0c3cd1",
+        "android_client_info": {
+          "package_name": "com.rakeshpvtltd.vectcomplaintbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927229660804-4vmpe1jnqdc61vj62i41uc1hd2v0d5vo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKBoWL0w5fr1DmVmfhc20XWlXoqrRThuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927229660804-4vmpe1jnqdc61vj62i41uc1hd2v0d5vo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
